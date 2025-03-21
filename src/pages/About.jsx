@@ -14,13 +14,7 @@ function About() {
 			</h2>
 			<div className=' border rounded-3xl shadow-2xl shadow-purple-500 mb-5 flex flex-col gap-10 p-20'>
 				<p className=' text-justify text-2xl '>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
-					deleniti explicabo molestiae facilis dicta veritatis quisquam culpa
-					repellendus voluptatibus architecto dolore necessitatibus maxime
-					facere, et fugit est eveniet laudantium vero nostrum blanditiis
-					maiores! Consequuntur magni, id iure consectetur, ipsum quis
-					blanditiis neque laudantium deserunt expedita nesciunt asperiores
-					eligendi. Voluptatibus, earum.
+				Hello, I am a Fullstack Web Developer. I am an engineer with a passion for programming and building innovative things. I am skilled in Front End Technologies like HTML, CSS, JavaScript, React Js, Bootstrap, TailwindCSS,etc and also with Backend Technologies like Core Java, Advanced Java, Spring boot and Microservices, etc. In addition to this, I also worked with Database Technologies like Oracle, MySQL, NoSQl etc 
 				</p>
 				<div className=' flex gap-3'>
 					<FaHtml5 size='5em' />
