@@ -23,7 +23,7 @@ function About() {
 					<FaReact size='5em' />
 					<SiTypescript size='5em' />
 					<RiTailwindCssFill size='5em' />
-          
+            
 				</div>
 			</div>
     </div>
