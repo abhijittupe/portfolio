@@ -20,10 +20,10 @@ function Home() {
         <span className=' text-purple-500'>FULL STACK WEB DEVELOPER</span>
       </h1>
       <div className='buttons flex gap-5'>
-        <button className=' bg-black text-white text-xl py-5 px-10 rounded-2xl'>
+        <button className=' bg-blue-700 text-white text-xl py-5 px-10 rounded-2xl border-2'>
           Hire me
         </button>
-        <button className=' bg-transparent text-black text-2xl py-5 px-10 rounded-2xl'>
+        <button className=' bg-emerald-900 text-white text-2xl py-5 px-10 rounded-2xl border-2'>
           <a href='Resume.pdf' download>Download My Resume</a>
         </button>
       </div>
