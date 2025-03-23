@@ -27,7 +27,8 @@ function AIchatbot() {
 
   }
   return (
-    <div className="w-full max-w-2xl mx-auto flex flex-col bg-gray-900 text-white">
+    <div className="w-full  h-50 max-w-2xl mx-auto flex flex-col bg-gray-900 shadow-amber-400 text-white py-2">
+    <h1 className='text-2xl align-middle px-2 py-2 mx-auto'>Hi I am AI chatbot. Ask me what you want to know !!!</h1>
       {
         chatHistory.map((val, i) =>
         (
@@ -38,10 +39,10 @@ function AIchatbot() {
           </div>
         ))
       }
-      <div className="p-4 border-t border-gray-700 flex gap-1">
-        <input className="flex-1 p-3 bg-gray-800 text-white rounded-lg focus:ring focus:ring-blue-500" type="text" value={input}
+      <div className="p-2 border-t border-gray-700 flex gap-1 align-bottom">
+        <input className="flex-1 p-2 bg-gray-800 text-white rounded-lg align-middle focus:ring focus:ring-blue-500" type="text" value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Type a message" />
+          placeholder="Hello, Enter your message here" />
         <button className="p-3 bg-blue-600 rounded-lg hover:bg-blue-500" onClick={handleSend}>send</button>
       </div>
     </div>
