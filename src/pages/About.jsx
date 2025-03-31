@@ -14,7 +14,7 @@ function About() {
       <h2 className=' text-4xl text-center text-decoration-underline decoration-1 decoration-wavy decoration-purple-500 my-10'>
 				<b>About me</b>
 			</h2>
-			<div className=' border rounded-3xl shadow-2xl  shadow-amber-500 mb-5 flex flex-col gap-10 p-20'>
+			<div className=' border rounded-3xl shadow-2xl  shadow-amber-500 hover:shadow-purple-500 mb-5 flex flex-col gap-10 p-20'>
 				<p className=' text-justify text-2xl '>
 				Hello, I am a Fullstack Web Developer. I am an engineer with a passion for programming and building innovative things. I am skilled in Front End Technologies like HTML, CSS, JavaScript, React Js, Bootstrap, TailwindCSS,etc and also with Backend Technologies like Core Java, Advanced Java, Spring boot and Microservices, etc. In addition to this, I also worked with Database Technologies like Oracle, MySQL, NoSQl etc 
 				</p>

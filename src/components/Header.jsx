@@ -11,7 +11,7 @@ function Header() {
       <nav className='w-screen px-1'>
         <Link to=''className=' hover:text-green-600 hover:-translate-y-1.5 text-xl md:text-3xl lg:text-4xl px-2'>Home </Link>
         <Link to='/about' className=' hover:text-green-600 hover:-translate-y-1.5 text-xl md:text-3xl lg:text-4xl px-2'>About </Link>
-        <Link to='/contact' className=' hover:text-green-600 hover:-translate-y-1.5 text-xl md:text-3xl lg:text-4xl px-2'>Contact </Link>
+        {/* <Link to='/contact' className=' hover:text-green-600 hover:-translate-y-1.5 text-xl md:text-3xl lg:text-4xl px-2'>Contact </Link> */}
         <Link to='/projects' className='  hover:text-green-600 hover:-translate-y-1.5 text-xl md:text-3xl lg:text-4xl px-2'>Projects </Link>
         <Link to='/aichatbot' className='  hover:text-green-600 hover:-translate-y-1.5 text-xl md:text-3xl lg:text-4xl px-2'>AI chatbot</Link>
         <button onClick={() => toggleTheme("dark")}>

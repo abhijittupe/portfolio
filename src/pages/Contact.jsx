@@ -11,7 +11,7 @@ function Contact() {
             Enter your Message here : <textarea className=' bg-cyan-900 py-2 my-2 rounded-2xl' name="" id=""></textarea>
             </div>
             <div className='text-2xl align-middle py-2 w-2'>
-              <button  className='button bg-green-800 rounded w-auto' type='submit'>Submit</button>
+              <button  className='button bg-green-800 rounded w-auto' type='submit' onSubmit={()=>alert("Message submitted")}>Submit</button>
             </div>
         </div>
       </form>

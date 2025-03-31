@@ -27,7 +27,7 @@ function AIchatbot() {
 
   }
   return (
-    <div className="w-full  h-50 max-w-2xl mx-auto flex flex-col bg-gray-900 shadow-amber-400 text-white py-2">
+    <div className="w-full  h-screen max-w-2xl mx-auto flex flex-col bg-gray-900 shadow-amber-400 text-white py-2">
     <h1 className='text-2xl align-middle px-2 py-2 mx-auto'>Hi I am AI chatbot. Ask me what you want to know !!!</h1>
       {
         chatHistory.map((val, i) =>

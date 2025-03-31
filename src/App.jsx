@@ -12,7 +12,7 @@ import { themeContext } from './main'
 import AIchatbot from './components/AIchatbot'
 
 function App() {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState("dark")
 		const toggleTheme = () => {
 			setTheme(theme == "light" ? "dark" : "light")
     }
